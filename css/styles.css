@@ -1,0 +1,173 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  margin: 10px auto 10px auto;
+  font-size: 300%;
+  color: #3d9191;
+}
+
+h2{
+  font-size: 200%;
+  color: #3d9191;
+  margin:10px auto 20px auto;
+}
+
+h3{
+  font-size: 150%;
+  color: #3d9191;
+  margin-bottom: 0px;
+}
+
+h4{
+  font-size: 120%;
+  color: #3d9191;
+  margin: 0px auto 0px auto;
+}
+
+a{
+  color: #3d9191;
+}
+
+.footer-link{
+  color: black;
+  margin: auto 10px auto 10px;
+}
+
+.top-container{
+  background-color: #ffd5cd;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.menu-container{
+  padding: 30px 50px 30px 50px;
+}
+
+.menu-rows-container{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-container {
+  background-color: lightyellow;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bottom-container{
+  background-color: #8675a9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.menu-row{
+  width: 50%;
+  margin: 60px auto 60px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.menu-row .menu-picture{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.menu-row .pizza-picture{
+  width: 10%;
+}
+
+.menu-row .pepper-picture{
+  width: 5%;
+  float: right;
+}
+
+hr{
+  border: 7px solid #EAF6F6;
+  width: 10%;
+  border-style: none none dotted;
+}
+
+form {
+  display: block;
+}
+
+.form-container .add-pizza-form form label {
+  text-align: left;
+}
+
+.form-container .add-pizza-form form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.add-pizza-form {
+  max-width: 500px;
+  padding: 20px 20px;
+  margin: 0px auto 0px auto;
+}
+
+#toppings, #deletable-toppings{
+  margin-bottom: 0px;
+}
+
+button{
+  border-radius: 5px;
+  border:1px solid;
+  font-family: inherit;
+}
+
+#add-topping {
+  width: 25%;
+  background-color: #ffd5cd;
+  font-size:1em;
+  margin-top: 10px;
+  margin-bottom:10px;
+  color: #3d9191;
+}
+
+#add-pizza {
+  width: 30%;
+  background-color: #ffd5cd;
+  font-size:1.5em;
+  color: #3d9191;
+  margin-top: 10px;
+}
+
+#sort-by {
+  min-width: 100px;
+  width: auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 16px;
+  font-family: inherit;
+}
+
+#delete{
+  min-width: 70px;
+  width: auto;
+  padding: 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  font-size: 16px;
+  float: right;
+}
